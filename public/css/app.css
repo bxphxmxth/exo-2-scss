@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.bleuF {
+  background-color: #272742;
+  display: flex;
+  border: solid 3x red;
+  justify-content: space-between;
+}
+
+.start {
+  border: red solid 3px;
+  width: 15%;
+  margin-left: 200px;
+  color: white;
+}
+
+.signLog {
+  display: flex;
+  text-align: center;
+  border: red solid 3px;
+  width: 50%;
+  justify-content: space-around;
+  color: grey;
+}
+
+.section1 {
+  background-color: blue;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.onePage {
+  color: white;
+  font-size: 50px;
+  height: 200px;
+}
+
+.button1 {
+  text-align: center;
+  color: white;
+}
+
+.section2 {
+  width: 100%;
+  display: flex;
+}
+.section2 .parent {
+  width: 50%;
+  display: flex;
+}
+.section2 .parent .vide1 {
+  width: 50%;
+}
+.section2 .parent .rempli {
+  width: 50%;
+}
+.section2 .parent .rempli .firstP {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.section2 .parent .rempli .imgg {
+  width: 60%;
+  border-radius: 100%;
+  margin: 50px;
+}
+.section2 .parent .rempli .secondP {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.section2 .parent2 {
+  width: 50%;
+  display: flex;
+}
+.section2 .parent2 .rempli2 {
+  width: 50%;
+}
+.section2 .parent2 .rempli2 .imgg {
+  width: 60%;
+  border-radius: 100%;
+  margin: 50px;
+}
+.section2 .parent2 .rempli2 .firstP {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.section2 .parent2 .vide2 {
+  width: 50%;
+}
+
+.noir {
+  background-color: black;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.copy {
+  color: white;
+  width: 5%;
+  border: solid 3px red;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=app.css.map */

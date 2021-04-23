@@ -1,0 +1,104 @@
+.section1{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.onePage{
+    color: white;
+        font-size: 50px;
+    height: 200px;
+}
+
+.button1{
+
+text-align: center;
+color: white;
+
+
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+
+    .parent{
+        width: 50%;
+        display: flex;
+
+        .vide1{
+
+            width: 50%; 
+
+     
+        }
+        .rempli{
+
+            width: 50%;
+
+            .firstP{
+
+                font-size: 35px;
+                margin-bottom: 0;
+            }
+
+            
+            .imgg{
+
+                width: 60%;
+                border-radius: 100%;
+                margin: 50px ;
+         
+    
+            }
+
+            .secondP{
+
+                font-size: 35px;
+                margin-bottom: 0;
+
+            }
+        }
+
+
+
+    }
+
+    .parent2{
+
+        width: 50%;
+        display: flex;
+
+        .rempli2{
+
+            width: 50%;
+
+            .imgg{
+
+                width: 60%;
+                border-radius: 100%;
+                margin: 50px ;
+         
+    
+            }
+
+            .firstP{
+                font-size: 35px;
+                margin-bottom: 0;
+
+            }
+        }
+
+        .vide2{
+            width: 50%;
+        }
+
+    }
+
+}
+

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.bleuF{
+    background-color: rgb(39, 39, 66);
+    display: flex;
+    border: solid 3x red;
+    justify-content: space-between;
+}
+
+.start{
+    border: red solid 3px;
+    width: 15%;
+    margin-left: 200px;
+    color: white;
+    
+}
+
+.signLog{
+    display: flex;
+    text-align: center;
+    border: red solid 3px;
+    width: 50%;
+    justify-content: space-around;
+    color: grey;
+}
+
